@@ -8,3 +8,22 @@ app-square {
   border: 1px gray solid;
   height: 200px;
 }
+
+@media only screen and (max-width: 800px) {
+  .current-player {
+    font-size: 22px;
+  }
+
+  .winning-player {
+    font-size: 18px;
+  }
+
+  main {
+    grid-template-columns: 32% 32% 32%;
+  }
+
+  app-square {
+    border: 1px gray solid;
+    height: 80px;
+  }
+}
